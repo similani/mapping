@@ -4,9 +4,9 @@
 library(ggplot2)
 
 # To insert map insets I made use of the `viewport` function from `grid` package
-library(grid) #needed for the inset 'viewport' argument
+library(grid) 
 
-# For the scale and north aarow I used ggsn
+# For the scale and north arrow I used ggsn
 library(ggsn)
 
 # sf is a good package I used in conjuction with `ggplot2` to build the map 
